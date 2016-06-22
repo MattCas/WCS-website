@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Homepage</title>
+		
+		<link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		
+		<style>
+			html *
+			{
+				font-size: 1em !important;
+				font-family: 'Jura', sans-serif;
+				
+			}
+			
+			ul.menu{
+				position:absolute; /* Tells Menu to ignore the size and position of container */
+				list-margin-type:none;
+				position: fixed;
+				padding: 0;
+				margin: 0;
+				height: 40px;
+				width: 100%;
+  				top:0; /* This sets the menu to the top increase number for distance */
+  				left:0; /* This sets where it should start from left to right */
+				background-color:#6370cc ;
+				overflow: hidden;
+				
+			}
+			
+			#navbar li{
+				display: inline;
+				float: left;
+				font-size: 1.3em !important;
+			}		
+			
+			li a{
+				display: block;
+				color: white;
+				text-align: center;
+    			padding: 14px 16px;
+				text-decoration: none;
+				
+			}
+			
+			li a:hover:not(.active) {
+    			background-color: #110d0c;
+			}
+
+			.active {
+   				 background-color: #110d0c;
+			}	
+			
+			#site-navigation{
+				min-height: 40px;
+				overflow: scroll;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+
+	<div id="site-navigation" class="main-navigation" role="navigation">
+				
+			<div class="menu-container">
+				<ul id="navbar" class="menu">
+					
+					<li id="home-button" class="active"><a href="home.html">Home</a>						
+				
+					<li id="slideshow-button"><a href="slideshow.html">Slideshow</a>						
+					
+					<li id="book-button"><a href="booking.html">Book a lesson</a>
+
+					<li id="aboutus-button"><a href="aboutus.html">About Us</a></li>
+					
+					<li id="fb-button" style="float: right;"><a href="https://www.instagram.com/matthiascasula/" class="social">
+						<i class="fa fa-instagram"></i></a></li>
+					
+					<li id="fb-button" style="float: right;"><a href="https://www.facebook.com/WindsurfCoachingSardinia" class="social">
+						<i class="fa fa-facebook"></i></a></li>
+
+				</ul>
+			</div>			
+	
+	</div><!-- #site-navigation -->
+		
+		<div id="header">
+			<h1>Sardinia Windsurf Coaching</h1>
+		</div>
+
+		<div id="main">
+
+			<div id="coaching">
+				<h2>Coaching</h2>
+				   
+
+				<div>
+					<h3>Beginners</h3>
+					<ul>
+						<li>Sailing theory</li>
+						<li>Introduction to the kit</li>
+						<li>Cruising on the board</li>
+						<li>Turning around</li>
+					</ul>
+				</div>
+	
+				<div>
+					<h3>Intermediates</h3>
+					<ul>
+						<li>Getting planing</li>
+						<li>Footstrapping</li>
+						<li>Trimming the board</li>
+						<li>Carving</li>
+					</ul>
+				</div>
+	
+				<p>All of our coaching sessions are taught by a RYA qualified windsurfing instructor.</p>
+			</div>
+
+			
+		</div> <!-- end main -->
+
+	</body>
+
+</html>
